@@ -26,6 +26,7 @@ audio_native.ko
 audio_machine_kona.ko
 audio_snd_event.ko
 audio_cs35l41.ko
+audio_tfa98xx.ko
 gspca_main.ko
 lcd.ko
 llcc_perfmon.ko

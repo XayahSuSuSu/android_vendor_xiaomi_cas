@@ -6,6 +6,7 @@
 /vendor/lib/modules/mpq-adapter.ko:
 /vendor/lib/modules/audio_wcd9xxx.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
 /vendor/lib/modules/audio_q6_notifier.ko: /vendor/lib/modules/audio_q6_pdr.ko
+/vendor/lib/modules/audio_tfa98xx.ko:
 /vendor/lib/modules/audio_wcd_core.ko:
 /vendor/lib/modules/audio_snd_event.ko:
 /vendor/lib/modules/audio_cs35l41.ko:

@@ -5,6 +5,7 @@ alias of:N*T*Cqcom,audio-ref-clk audio_wcd9xxx
 alias of:N*T*Cqcom,audio-ref-clkC* audio_wcd9xxx
 alias of:N*T*Cqcom,wcd-dsp-mgr audio_wcd9xxx
 alias of:N*T*Cqcom,wcd-dsp-mgrC* audio_wcd9xxx
+alias i2c:tfa98xx audio_tfa98xx
 alias of:N*T*Ccirrus,cs35l40 audio_cs35l41
 alias of:N*T*Ccirrus,cs35l40C* audio_cs35l41
 alias of:N*T*Ccirrus,cs35l41 audio_cs35l41
