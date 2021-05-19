@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "UMI"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "URD", "VERTHANDI", "CAS"],
     "soc_id": ["291", "246", "339", "356"]
   },
   "tcs3408_platform":{
@@ -115,20 +115,20 @@
     },
     ".coefficient":{
       "owner": "sns_tcs3408",
-      "0":{ "type": "flt", "ver": "1",
-        "data": "12.47"
+      "0":{ "type": "flt", "ver": "2",
+        "data": "12.502"
       },
-      "1":{ "type": "flt", "ver": "1",
-        "data": "0.6"
+      "1":{ "type": "flt", "ver": "2",
+        "data": "0.418"
       },
-      "2":{ "type": "flt", "ver": "1",
-        "data": "-0.38"
+      "2":{ "type": "flt", "ver": "2",
+        "data": "-0.288"
       },
-      "3":{ "type": "flt", "ver": "1",
-        "data": "0.77"
+      "3":{ "type": "flt", "ver": "2",
+        "data": "0.672"
       },
-      "4":{ "type": "flt", "ver": "1",
-        "data": "-1.11"
+      "4":{ "type": "flt", "ver": "2",
+        "data": "-0.761"
       },
       "5":{ "type": "flt", "ver": "0",
         "data": "0.0"

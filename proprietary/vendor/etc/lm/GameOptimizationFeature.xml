@@ -22,7 +22,7 @@
     <Libname>libgameoptfeature.so</Libname>
     <Configs>
         <Enable>1</Enable>
-        <STATIC_L0>1</STATIC_L0>
+        <STATIC_L0>0</STATIC_L0>
         <ATML1>0</ATML1>
         <ATML2>0</ATML2>
         <ATML3>0</ATML3>
@@ -60,12 +60,12 @@
         <!-- Heavy Game Default -->
         <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, 0, SCHED_MIN_TASK_UTIL_FOR_BOOST, 0 -->
         <!-- MPCTLV3_SCHEDUTIL_DOWN_RATE_LIMIT_CLUSTER_BIG, 19000, MPCTLV3_SCHEDUTIL_DOWN_RATE_LIMIT_CLUSTER_LITTLE, 19000 -->
-        <!-- SCHED_GROUP_DOWNMIGRATE, 75, SCHED_GROUP_UPMIGRATE, 90 -->
+        <!-- SCHED_GROUP_UPMIGRATE, 90, SCHED_GROUP_DOWNMIGRATE, 75 -->
         <Profile>
             <DEFAULT_PROF>
             0x40C78000, 0, 0x40C7C000, 0,
             0x41448000, 19000, 0x41448100, 19000,
-            0x40C58000, 75, 0x40C54000, 90
+            0x40C54000, 90, 0x40C58000, 75
             </DEFAULT_PROF>
         </Profile>
         <!-- Agressive Profile - Junk detected -->
@@ -73,7 +73,7 @@
         <!-- MPCTLV3_SCHEDUTIL_DOWN_RATE_LIMIT_CLUSTER_BIG, 79000, MPCTLV3_SCHEDUTIL_DOWN_RATE_LIMIT_CLUSTER_LITTLE, 79000-->
         <!-- CPUBW_HWMON_MIN_FREQ, 30, LLCBW_HWMON_MIN_FREQ, 90, L3_MEMLAT_MIN_FREQ, 9000 -->
         <!-- MIN_FREQ_CLUSTER_PRIME_CORE_0, 1000, MIN_FREQ_CLUSTER_BIG_CORE_0, 1000, MIN_FREQ_CLUSTER_LITTLE_CORE_0, 1000 -->
-        <!-- SCHED_GROUP_DOWNMIGRATE, 65, SCHED_GROUP_UPMIGRATE, 80 -->
+        <!-- SCHED_GROUP_UPMIGRATE, 80, SCHED_GROUP_DOWNMIGRATE, 65 -->
         <!-- TO BE REPLACED: SCHED_BUSY_HYSTERSIS_CPU_MASK, 0xf0, LPM_BIAS_HYST, 99-->
         <Profile>
             <DEFAULT_PROF>
@@ -81,15 +81,15 @@
             0x41448000, 79000, 0x41448100, 79000,
             0x43000000, 30, 0x41800000, 90, 0x43400000, 9000,
             0x40800200, 1000, 0x40800000, 1000, 0x40800100, 1000,
-            0x40C58000, 65, 0x40C54000, 80,
+            0x40C54000, 80, 0x40C58000, 65,
             0x40C74000, 0xf0, 0x40408000, 99
             </DEFAULT_PROF>
         </Profile>
         <Profile>
-            <!-- Colocation v3 1 GHz, Core-CTL 3 -->
-            <DEFAULT>0x4144C100,1000000,0x41000000,3</DEFAULT>
-            <!-- Colocation v3 1 GHz, Core-CTL 3 -->
-            <SKEW2>0x4144C100,1000000,0x41000000,3</SKEW2>
+            <!-- Colocation v3 1 GHz, Predictive Load 1 -->
+            <DEFAULT>0x4144C100,1000000,0x41444000,1</DEFAULT>
+            <!-- Colocation v3 1 GHz, Predictive Load 1 -->
+            <SKEW2>0x4144C100,1000000,0x41444000,1</SKEW2>
         </Profile>
     </Profiles>
 

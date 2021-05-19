@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "UMI"],
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "CAS"],
     "soc_id": ["356"]
   },
   "power":{

@@ -2,7 +2,7 @@
 # All Rights Reserved.
 # Confidential and Proprietary - Xiaomi, Inc.
 #
-service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+service vendor.displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
     class hal
     user system
     group system graphics

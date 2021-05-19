@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP","QRD","Dragon","Surf", "HDK", "UMI"],
+    "hw_platform": ["MTP","QRD","Dragon","Surf", "HDK", "URD", "VERTHANDI", "CAS"],
     "soc_id": ["339", "356", "361"]
   },
   "dae":{

@@ -1,6 +1,6 @@
 {
   "config": {
-    "hw_platform": [ "MTP", "Dragon", "Surf", "IDP", "UMI"
+    "hw_platform": [ "MTP", "Dragon", "Surf", "IDP", "URD", "VERTHANDI", "CAS"
     ],
     "soc_id": ["291", "246", "305", "321", "336", "339", "355", "356", "360", "361", "365", "366", "393", "394", "400"
     ]

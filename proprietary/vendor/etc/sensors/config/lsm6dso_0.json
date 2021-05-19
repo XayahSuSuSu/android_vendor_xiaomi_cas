@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "UMI"],
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "URD", "VERTHANDI", "CAS"],
     "soc_id": ["336", "339", "341", "321", "339", "356"]
   },
   "lsm6dso_0":{

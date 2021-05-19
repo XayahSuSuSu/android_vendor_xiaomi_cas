@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "UMI"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "URD", "VERTHANDI", "CAS"],
     "soc_id": ["321", "339", "356"]
   },
   "lsm6dso_0_platform":{
@@ -64,14 +64,14 @@
     },
     ".orient":{
       "owner": "lsm6dso",
-      "x":{ "type": "str", "ver": "4",
-        "data": "+x"
+      "x":{ "type": "str", "ver": "5",
+        "data": "-x"
       },
       "y":{ "type": "str", "ver": "4",
         "data": "+y"
       },
-      "z":{ "type": "str", "ver": "2",
-        "data": "+z"
+      "z":{ "type": "str", "ver": "3",
+        "data": "-z"
       }
     },
     ".gyro":{
